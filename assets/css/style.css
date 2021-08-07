@@ -19,7 +19,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404;
+  background-image: "1107-colores-oscuros.jpg" ;
   background-size: cover;
   left: 0;
   right: 0;
