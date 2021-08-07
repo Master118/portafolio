@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-image: "1107-colores-oscuros.jpg" ;
+  background-image: url("img/1107-colores-oscuros.jpg") ;
   color: #fff;
   position: relative;
   background: transparent;
