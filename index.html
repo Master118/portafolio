@@ -52,8 +52,8 @@
           <li><a href="#about">Sobre mi</a></li>
           <li><a href="#resume">Trayectoria</a></li>
          
-          <li><a href="#services">Servicios</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+          <!-- <li><a href="#services">Servicios</a></li>
+          <li><a href="#portfolio">Portfolio</a></li> -->
           <li><a href="#contact">Contactame</a></li>
          
 
@@ -428,13 +428,26 @@
           <div class="resume-item">
             <h4>JMB Contadores</h4>
             <h5>2020 - 2021</h5>
-            <p><em><Canvas>Colonia del Valle, Benito Juárez</Canvas></em></p>
+            <p><em>Col. del Valle</em></p>
             <p>
             <ul>
               <li>Desarrollo de una plataforma para descarga de XML´s directamente del SAT</li>
               <li>Creacion de una base de datos para gestion de la misma información de XML</li>
               <li>Generación de reportes mensuales de manera personal para cada contador</li>
               <li>Creacion de formatos para presentación de la información de manera estadistica</li>
+            </ul>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>ALTA RENTAVILIDAD</h4>
+            <h5>2021 - Actualidad</h5>
+            <p><em>Col. del Valle</em></p>
+            <p>
+            <ul>
+              <li>Mantenimiento de sus sistemas en .NET Core</li>
+              <li>Manejo de base de datos SQL Server (Creación/Modificación de SP)</li>
+              <li>Creación de Modales (HTML) con JS</li>
+              <li>Conocimiento de SharePoint de Microsoft ®</li>
             </ul>
             </p>
           </div>
@@ -665,8 +678,8 @@
     <div class="container">
 
       <div class="section-title">
-        <h2>Contact</h2>
-        <p>Contact Me</p>
+        <h2>Datos de contacto</h2>
+        <p>Contacto</p>
       </div>
 
       <div class="row mt-2">
@@ -674,8 +687,8 @@
         <div class="col-md-6 d-flex align-items-stretch">
           <div class="info-box">
             <i class="bx bx-map"></i>
-            <h3>My Address</h3>
-            <p>A108 Adam Street, New York, NY 535022</p>
+            <h3>Dirección</h3>
+            <p>Arbolada Ixtapaluca, Edo. de México</p>
           </div>
         </div>
 
@@ -684,11 +697,11 @@
             <i class="bx bx-share-alt"></i>
             <h3>Social Profiles</h3>
             <div class="social-links">
-              <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
+              <!-- <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
               <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
-              <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
+              <a href="#" class="instagram"><i class="icofont-instagram"></i></a> -->
               <a href="#" class="google-plus"><i class="icofont-skype"></i></a>
-              <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/jes%C3%BAs-alberto-garc%C3%ADa-flores-ab1a4b209/" target="_blank" class="linkedin"><i class="icofont-linkedin"></i></a>
             </div>
           </div>
         </div>
@@ -696,15 +709,15 @@
         <div class="col-md-6 mt-4 d-flex align-items-stretch">
           <div class="info-box">
             <i class="bx bx-envelope"></i>
-            <h3>Email Me</h3>
-            <p>contact@example.com</p>
+            <h3>Correo electronico</h3>
+            <p>jesus.unam.117@hotmail.com</p>
           </div>
         </div>
         <div class="col-md-6 mt-4 d-flex align-items-stretch">
           <div class="info-box">
             <i class="bx bx-phone-call"></i>
-            <h3>Call Me</h3>
-            <p>+1 5589 55488 55</p>
+            <h3>Número celular</h3>
+            <p>56-12-87-85-18</p>
           </div>
         </div>
       </div>
@@ -712,28 +725,28 @@
       <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
         <div class="form-row">
           <div class="col-md-6 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+            <input type="text" name="name" class="form-control" id="name" placeholder="Ingrese su nombre" data-rule="minlen:4" data-msg="Nombre invalido" />
             <div class="validate"></div>
           </div>
           <div class="col-md-6 form-group">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+            <input type="email" class="form-control" name="email" id="email" placeholder="Ingrese su correo" data-rule="email" data-msg="Ingrese un correo valido" />
             <div class="validate"></div>
           </div>
         </div>
         <div class="form-group">
-          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+          <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto a tratar" data-rule="minlen:4" data-msg="Asusnto invalido" />
           <div class="validate"></div>
         </div>
         <div class="form-group">
-          <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+          <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor ingrese un mensaje" placeholder="Mensaje"></textarea>
           <div class="validate"></div>
         </div>
         <div class="mb-3">
-          <div class="loading">Loading</div>
+          <div class="loading">Enviando</div>
           <div class="error-message"></div>
           <div class="sent-message">Your message has been sent. Thank you!</div>
         </div>
-        <div class="text-center"><button type="submit">Send Message</button></div>
+        <div class="text-center"><button type="submit">Enviar</button></div>
       </form>
 
     </div>
